@@ -3,7 +3,7 @@
   "name": "com.appstoretracker/mcp",
   "title": "App Store Tracker",
   "description": "iOS App Store chart rankings, app details, reviews, keywords and revenue estimates.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.appstoretracker.com/mcp",
   "remotes": [
     {
@@ -18,5 +18,9 @@
         }
       ]
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/top-init/appstoretracker-mcp-registry-listing",
+    "source": "github"
+  }
 }
