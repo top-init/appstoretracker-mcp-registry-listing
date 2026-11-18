@@ -3,7 +3,7 @@
   "name": "com.appstoretracker/mcp",
   "title": "App Store Tracker",
   "description": "iOS App Store chart rankings, app details, reviews, keywords and revenue estimates.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://www.appstoretracker.com/mcp",
   "remotes": [
     {
@@ -12,8 +12,8 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer <API key>; create one at https://www.appstoretracker.com/account/api",
-          "isRequired": true,
+          "description": "Optional. Clients that support MCP sign-in (OAuth) need nothing here. Otherwise: Bearer <API key>, created at https://www.appstoretracker.com/account/api",
+          "isRequired": false,
           "isSecret": true
         }
       ]

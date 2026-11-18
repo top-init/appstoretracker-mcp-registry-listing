@@ -8,7 +8,7 @@
 |---|---|
 | **Endpoint** | `https://www.appstoretracker.com/api/mcp` |
 | **Transport** | Streamable HTTP (remote, hosted, nothing to install) |
-| **Auth** | `Authorization: Bearer <API key>`. Create one at [appstoretracker.com/account/api](https://www.appstoretracker.com/account/api?utm_source=github&utm_medium=referral&utm_campaign=mcp-listing) |
+| **Auth** | Sign in (MCP OAuth): clients that support it just need the URL. Or send `Authorization: Bearer <API key>`, created at [appstoretracker.com/account/api](https://www.appstoretracker.com/account/api?utm_source=github&utm_medium=referral&utm_campaign=mcp-listing) |
 | **Registry name** | `com.appstoretracker/mcp` |
 
 ## What you can ask
